@@ -1,11 +1,11 @@
 {
-    "name": "node-p3",
-    "version": "1.0.0",
-    "scripts": {
-        "test": "mocha test/*.test.js",
-        "build": "echo Building..."
-    },
-    "devDependencies": {
-        "mocha": "^10.0.0"
-    }
+  "name": "node-ci-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "build": "echo 'build done'"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
 }
