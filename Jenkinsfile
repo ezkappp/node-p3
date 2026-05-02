@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'url: 'https://github.com/ezkappp/node-p3.git''
+                git branch: 'main', url: 'https://github.com/ezkappp/node-p3.git'
             }
         }
         stage('Install Dependencies') {
