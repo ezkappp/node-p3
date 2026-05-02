@@ -19,8 +19,9 @@ pipeline {
                 sh 'npm test'
             }
             post {
-                success { junit 'test-results.xml' }
-                failure { echo 'Tests failed!' }
+                failure {
+                    echo 'Tests failed!'
+                }
             }
         }
         stage('Build') {
